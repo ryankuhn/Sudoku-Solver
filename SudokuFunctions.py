@@ -155,5 +155,7 @@ def checkCorrect(board):
 
     return correct            
             
+def method2(board):
+    return board
                       
 

@@ -44,7 +44,7 @@ def placeNum(val, location,color,screenData):
 
     screen.blit(text, [xdist,ydist])
 
-filename = 'sudoku_easy.csv'
+filename = 'sudoku_med.csv'
 board = makeBoardValid(importBoard(filename),board) #imports board from csv file
 #INITIALBOARD = list(board[0:9,0:9,0])
 for i in range(len(board)):
@@ -110,7 +110,7 @@ while not done:
 
     pygame.display.flip()
 
-    clock.tick(2)
+    clock.tick(5)
 
 pygame.quit()
 
